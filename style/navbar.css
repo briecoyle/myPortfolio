@@ -1,13 +1,40 @@
+body {
+  color: #273238;
+}
+
 .navbar {
-  background-color: #ddd;
+  color: #3C5461;
+  background-color: #84A4B5;
 }
 
 .section-start {
-  padding-top: 80px;
+  padding-top: 120px;
   padding-right: 30px;
   padding-left: 30px;
 }
 
 .after-nav {
   padding-top: 56px;
+}
+
+.jumbotron {
+  background-image: url("./images/home.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.photo-credit {
+  position: absolute;
+  bottom:10px;
+  right:10px;
+  background-color:#84A4B5;
+  color:white;
+  text-decoration:none;
+  padding:4px 6px;
+  font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  line-height:1.2;
+  display:inline-block;
+  border-radius:3px;
 }
