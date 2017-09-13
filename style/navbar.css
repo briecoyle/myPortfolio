@@ -42,3 +42,7 @@ body {
 .nav-pills .nav-link.active {
   background-color: #B1BFCC;
 }
+
+.thumbnail {
+  width: 100%;
+}
