@@ -38,3 +38,7 @@ body {
   display:inline-block;
   border-radius:3px;
 }
+
+.nav-pills .nav-link.active {
+  background-color: #B1BFCC;
+}
